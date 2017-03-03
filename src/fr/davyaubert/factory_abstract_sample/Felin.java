@@ -1,0 +1,13 @@
+package fr.davyaubert.factory_abstract_sample;
+
+/**
+ * Created by daubert on 03/03/2017.
+ */
+public abstract class Felin {
+    public abstract int Weight();
+    public abstract int Lenght();
+
+    protected void Run(){
+        System.out.println("I run. Height= " + Weight() + " Lenght= " + Lenght() + ". Who i am ?");
+    }
+}
