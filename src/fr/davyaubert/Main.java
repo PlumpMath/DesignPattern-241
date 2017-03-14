@@ -1,16 +1,5 @@
 package fr.davyaubert;
 
-import fr.davyaubert.factory.ProduitA;
-import fr.davyaubert.factory.ProduitFactory;
-import fr.davyaubert.factory.ProduitFactory1;
-import fr.davyaubert.factory.ProduitFactory2;
-import fr.davyaubert.factory_abstract.IProduitFactory;
-import fr.davyaubert.factory_abstract_sample.AnimalFactory;
-import fr.davyaubert.factory_abstract_sample.CetaceFactory;
-import fr.davyaubert.factory_abstract_sample.IAnimalFactory;
-import fr.davyaubert.factory_abstract_sample.ICetaceFactory;
-import fr.davyaubert.singleton.Client;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -66,10 +55,24 @@ public class Main {
         /*ICetaceFactory cetaceFactory_2 = new CetaceFactory();
         cetaceFactory_2.getBaleineBosse().helloWorld();*/
 
-        IAnimalFactory animalFactory = new AnimalFactory();
+     /*   IAnimalFactory animalFactory = new AnimalFactory();
         animalFactory.getFelinFactory().getLion().Run();
         animalFactory.getFelinFactory().getGuepard().Run();
         animalFactory.getCetaceFactory().getBaleineBleue().swim();
-        animalFactory.getCetaceFactory().getBaleineBosse().swim();
+        animalFactory.getCetaceFactory().getBaleineBosse().swim();*/
+
+        /*String myString = "049405230025460746870213123876804409809845";
+
+        StringBuilder sb = new StringBuilder();
+        for(int i = 0; i < myString.length(); i++) {
+            if (i != 0 && i%2 == 0) {
+                System.out.println(sb.toString());
+
+                sb = new StringBuilder();
+                sb.append(myString.charAt(i));
+            } else {
+                sb.append(myString.charAt(i));
+            }
+        }*/
     }
 }

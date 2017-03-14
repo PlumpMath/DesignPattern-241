@@ -1,0 +1,45 @@
+The main package of the Java Image I/O API.
+javax.imageio.event
+A package of the Java Image I/O API dealing with synchronous notification of events during the reading and writing of images.
+javax.imageio.metadata
+A package of the Java Image I/O API dealing with reading and writing metadata.
+javax.imageio.plugins.bmp
+Package containing the public classes used by the built-in BMP plug-in.
+javax.imageio.plugins.jpeg
+Classes supporting the built-in JPEG plug-in.
+javax.imageio.spi
+A package of the Java Image I/O API containing the plug-in interfaces for readers, writers, transcoders, and streams, and a runtime registry.
+javax.imageio.stream
+A package of the Java Image I/O API dealing with low-level I/O from files and streams.
+javax.jws
+javax.jws.soap
+javax.lang.model
+Classes and hierarchies of packages used to model the Java programming language.
+javax.lang.model.element
+Interfaces used to model elements of the Java programming language.
+javax.lang.model.type
+Interfaces used to model Java programming language types.
+javax.lang.model.util
+Utilities to assist in the processing of program elements and types.
+javax.management
+Provides the core classes for the Java Management Extensions.
+javax.management.loading
+Provides the classes which implement advanced dynamic loading.
+javax.management.modelmbean
+Provides the definition of the ModelMBean classes.
+javax.management.monitor
+Provides the definition of the monitor classes.
+javax.management.openmbean
+Provides the open data types and Open MBean descriptor classes.
+javax.management.relation
+Provides the definition of the Relation Service.
+javax.management.remote
+Interfaces for remote access to JMX MBean servers.
+javax.management.remote.rmi
+The RMI connector is a connector for the JMX Remote API that uses RMI to transmit client requests to a remote MBean server.
+javax.management.timer
+Provides the definition of the Timer MBean.
+javax.naming
+Provides the classes and interfaces for accessing naming services.
+javax.naming.directory
+Extends the javax.naming package to provide functionality for accessing directory services.
